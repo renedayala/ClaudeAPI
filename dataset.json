@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Generate a JSON object representing the latest EC2 instance state for a given instance ID. Assume a function `get_ec2_instance_state(instance_id)` exists that returns a dictionary containing the instance state and other relevant details."
+  },
+  {
+    "task": "Create a regular expression to validate if a given string is a valid AWS S3 object key.  The key should only contain lowercase letters, numbers, underscores, and hyphens, and must start with a letter or underscore.  Max length 63 characters."
+  },
+  {
+    "task": "Write a Python function that takes a list of AWS S3 bucket names and returns a JSON string containing a list of those bucket names. Consider that the S3 bucket names are pre-validated as valid."
+  }
+]
